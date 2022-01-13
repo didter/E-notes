@@ -10,7 +10,7 @@ class HomeController extends Controller {
 
   async detail() {
     const { ctx } = this;
-    ctx.body = '这是详情页'
+    ctx.body = '<h1>这是详情页</h1>';
   }
 }
 
