@@ -16,4 +16,6 @@ module.exports = app => {
 
   // post 请求
   router.post('/add', controller.request.add);
+  // put 请求
+  router.put('/updateUserInfo/:id', controller.request.updateUserInfo)
 };

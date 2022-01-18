@@ -26,6 +26,12 @@ class RequestController extends Controller{
     };
   };
 
+  // PUT 传参
+  async updateUserInfo() {
+    const { ctx } = this;
+    ctx.body = ctx.params;
+  }
+
 }
 
 module.exports = RequestController;
